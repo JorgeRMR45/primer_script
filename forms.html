@@ -15,8 +15,31 @@
             <label for="txtEmail">Correo</label>
             <input id="txtEmail" name="txtEmail" type="email" placeholder="tucorreoelectronico">
             <br/>
-            <button type="submit" name="btnEnviar">Enviar</button>
+            <label>Ciudad</label>
+            <label for="optTeg">Tegucigalpa</label>
+            <input type="radio" id="optTeg" name="optCiudad" value="TEG" />
 
+            <label for="optSPS">San Pedro Sula</label>
+            <input type="radio" id="optSPS" name="optCiudad" value="SPS" />
+
+            <label for="optCHL">Choluteca</label>
+            <input type="radio" id="optCHL" name="optCiudad" value="CHL" />
+            
+            <br/>
+
+            <label for="cmbCiudad">Ciudades</label>
+            <select id="cmbCiudad" name="cmbCiudad">
+                <option value="TEG">Tegucigalpa</option>
+                <option value="SPS" selected>San Pedro Sula</option>
+                <option value="CHL">Choluteca</option>
+            </select>
+            <br/>
+            <label for="txtLongText">Texto Largo</label><br/>
+            <textarea id="txtLongText" 
+            name="txtBio" placeholder="Texto muy muy largo">
+            </textarea>
+
+            <button type="submit" name="btnEnviar">Enviar</button>
 
         </form>
     </body>
